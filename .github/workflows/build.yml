@@ -53,11 +53,11 @@ jobs:
 
       - name: Build Docker image
         run: >
-          docker build -t ghcr.io/dev-comrade/channel-ban-bot:v${{ env.VERSION }}
-          -t ghcr.io/dev-comrade/channel-ban-bot:latest
+          docker build -t ghcr.io/dev-comrade/telegram-ban-bot:v${{ env.VERSION }}
+          -t ghcr.io/dev-comrade/telegram-ban-bot:latest
           -f Dockerfile .
 
       - name: Push Docker image
         run: |
-          docker push ghcr.io/dev-comrade/channel-ban-bot:v${{ env.VERSION }}
-          docker push ghcr.io/dev-comrade/channel-ban-bot:latest
+          docker push ghcr.io/dev-comrade/telegram-ban-bot:v${{ env.VERSION }}
+          docker push ghcr.io/dev-comrade/telegram-ban-bot:latest

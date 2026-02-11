@@ -13,9 +13,9 @@
     </parent>
 
     <groupId>com.devcomrade.banbot</groupId>
-    <artifactId>channel-ban-bot</artifactId>
+    <artifactId>telegram-ban-bot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ChannelBanBot</name>
+    <name>TelegramBanBot</name>
     <description>Telegram bot for democratic mute/kick voting in group chats</description>
 
     <properties>

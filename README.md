@@ -1,11 +1,11 @@
-# ChannelBanBot
+# TelegramBanBot
 
 ![Java](https://img.shields.io/badge/Java-21-007396?logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?logo=springboot&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?logo=mongodb&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-**ChannelBanBot** is a Telegram bot for democratic community moderation.  
+**TelegramBanBot** is a Telegram bot for democratic community moderation.  
 It allows group members to collectively decide whether a spammer or violator should be muted or banned using a transparent voting mechanism.
 
 The bot is designed to be configurable, multilingual, and production-ready.
