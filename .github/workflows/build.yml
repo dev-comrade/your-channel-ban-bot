@@ -55,7 +55,7 @@ jobs:
         run: >
           docker build -t ghcr.io/dev-comrade/channel-ban-bot:v${{ env.VERSION }}
           -t ghcr.io/dev-comrade/channel-ban-bot:latest
-          -f docker/Dockerfile .
+          -f Dockerfile .
 
       - name: Push Docker image
         run: |

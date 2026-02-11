@@ -12,6 +12,18 @@ The bot is designed to be configurable, multilingual, and production-ready.
 
 ---
 
+## 🤖 Try It on Telegram
+
+You can find the live bot here:
+
+👉 https://t.me/yourchannelbanbot  
+(@yourchannelbanbot)
+
+Feel free to add it to your group and test the democratic moderation workflow.
+
+---
+
+
 ## ✨ Features
 
 - **Democratic moderation**  
@@ -119,7 +131,6 @@ Create a `.env` file in the project root (see `.env.sample`):
 
 ```properties
 TELEGRAM_API_KEY=your_telegram_bot_token
-TELEGRAM_BOT_USERNAME=your_bot_username
 MONGO_DB_URL=mongodb://localhost:27017/channel-guard
 ```
 
