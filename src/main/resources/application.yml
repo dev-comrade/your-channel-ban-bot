@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: channel-ban-bot
+
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+
+  messages:
+    basename: i18n/messages
+    encoding: UTF-8
+    use-code-as-default-message: false
+
+telegram:
+  bot:
+    token: ${TELEGRAM_API_KEY}
+
+cache:
+  chat-admins:
+    ttl-minutes: 5
+
+
+logging:
+  level:
+    root: INFO
+    com.devcomrade.channelguard: INFO

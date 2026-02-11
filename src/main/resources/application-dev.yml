@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGO_DB_URL}
+      auto-index-creation: true
+
+logging:
+  level:
+    root: INFO
+    com.devcomrade.channelguard: DEBUG

@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGO_DB_URL}
+      auto-index-creation: false
+
+logging:
+  level:
+    root: INFO
+    com.devcomrade.channelguard: INFO
+    file:
+      name: log/current.log
+    logback:
+      rollingpolicy:
+        file-name-pattern: log/%d{yyyy-MM-dd/HH}.%i.log.gz
+        max-history: 672
+        max-file-size: 5GB

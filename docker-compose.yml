@@ -1,0 +1,12 @@
+services:
+  app:
+    image: ghcr.io/dev-comrade/channel-ban-bot
+    depends_on:
+      - mongo
+    environment:
+      TZ: Europe/Moscow
+      SPRING_PROFILES_ACTIVE: dev
+      MONGO_DB_URL: mongodb://mongo:27017/channelguard
+      TELEGRAM_API_KEY: ${TELEGRAM_API_KEY}
+  mongo:
+    image: mongo:4.4.10
